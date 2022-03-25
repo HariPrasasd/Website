@@ -53,9 +53,9 @@ nav{
 }
 .navbar{
     background: #fff;
-    padding: 20px;
+    padding: 10px;
     display: flex;
-    height: 20vh;
+    height: 15vh;
     flex-direction: row;
 }
 .navbar ul{

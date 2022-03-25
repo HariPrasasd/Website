@@ -74,6 +74,19 @@ nav{
     text-transform: uppercase;
     font-size: 1rem;
 }
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+.navbar ul .email{
+    background: rgb(233, 9, 203);
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+.navbar ul .email:hover{
+    color: #ff0066;
+    color: black;
+}
 .about{
     padding: 10px;
     background: rgb(145, 145, 221);
