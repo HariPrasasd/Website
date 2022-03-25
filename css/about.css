@@ -303,11 +303,36 @@ nav{
 
 @media screen and (max-width: 1200px){
     nav{
+        /* display: none; */
+        /* visibility: hidden; */
+        position: absolute;
+    }
+    .location ,.about{
+        /* visibility: hidden; */
         display: none;
-        visibility: collapse;
+    }
+    .navbar{
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        height: 28vh;
+        width: 100%;
+        margin-top: -45px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        /* visibility: hidden; */
+    }
+    .navbar ul{
+        left: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .navbar ul li{
+        margin-bottom: 20px;
     }
     .next{
-        margin-top: -308px;
+        margin-top: -152px;
         overflow: hidden;
     }
     .next{
@@ -437,5 +462,12 @@ nav{
     }
     .next5 .matter{
         margin-top: -200px;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .navbar ul{
+        margin-bottom: -100px;
+        margin-left: -200px;
     }
 }
