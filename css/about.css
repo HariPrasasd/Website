@@ -298,3 +298,144 @@ nav{
 .next5 .matter button:hover{
     background-color: pink;
 }
+
+/* ////////////////Responsive///////////// */
+
+@media screen and (max-width: 1200px){
+    nav{
+        display: none;
+        visibility: collapse;
+    }
+    .next{
+        margin-top: -308px;
+        overflow: hidden;
+    }
+    .next{
+        display: flex;
+        flex-direction: column;
+    }
+    .next img{
+        visibility: hidden;
+        display: block;
+    }
+    .next .written{
+        margin-top: -492px;
+        padding-left: 30px;
+    }
+    .next .written h3{
+        display: block;
+        visibility: hidden;
+    }
+    .next .written h4
+    {
+        margin: auto;
+        text-decoration:underline;
+        font-style: oblique;
+        padding: auto;
+        color: #ff0066;
+        font-size: 2.5rem;
+    }
+    .next .written ul{
+        margin-top: -65px;
+        /* padding: auto; */
+    }
+    .next .written ul li{
+        font-size: 1.5rem;
+    }
+    .next1{
+        /* background: aqua; */
+        margin-left: 10%;
+        width: 80%;
+        border-radius: 20px;
+        margin-top: -84px;
+        height: auto;
+        padding: 20px;
+    }
+    .next1 p {
+        margin: auto;
+        padding: auto;
+    }
+    .next1 ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+        cursor: pointer;
+    }
+    .next2 .counter-box h1{
+        font-size: 1rem;
+        color: #ff0066;
+        font-weight: bold   ;
+    }
+    .next2 hr{
+        width: 100%;
+        margin-left: 0px;
+        border: 2px solid orange;
+    }
+    .next2 .col-mod-3{
+        padding: 0px;
+    }
+    .next2 .counter-box{
+        margin-left: 50px;
+        padding: 30px px;
+        margin-right: 5px solid #fff;
+    }
+    .next2 .counter-box span{
+        font-size: 1.5rem;
+        color: #ff0066;
+    }
+    .next3 p{
+        padding: auto;
+        margin: auto;
+    }
+    .next4{
+        height: auto;
+    }
+    .next4 .pics{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+    .next4 .pics .one img{
+        width: 35vw;
+        height: 30vh;
+    }
+}
+
+
+@media screen and (max-width: 520px){
+    .next1 ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .next2 .row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .next2 .counter-box{
+        margin-left: 50px;
+        padding: 30px 0px;
+        margin-right: 5px solid #fff;
+    }
+    .next4 .pics .one img{
+        width: 70vw;
+        height: 30vh;
+    }
+    .next4 .pics{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 900px){
+    .next5{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+    .next5 img{
+        visibility: hidden;
+    }
+    .next5 .matter{
+        margin-top: -200px;
+    }
+}
